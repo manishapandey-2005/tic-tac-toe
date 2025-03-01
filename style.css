@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+#container{
+   height:70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+    
+}
+#box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+}
+#reset,#new{
+    width:80px;
+    height:50px;
+    background-color: black;
+    color:white;
+
+}
+
+#msg{
+    color:blanchedalmond;
+    font-size: 40px;
+}
+.hide{
+    display: none;
+}
